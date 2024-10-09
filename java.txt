@@ -1,0 +1,7 @@
+// Add an interactive element to your button
+document.getElementById('gameButton').addEventListener('click', function() {
+    alert('You’re about to play Dartiiii’s latest game!');
+    // You could redirect to your game or open a new tab:
+    window.open('https://www.your-game-link.com', '_blank');
+});
+   
